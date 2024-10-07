@@ -1,0 +1,246 @@
+/* AQUI LE DAMOS FORMA AL PRIMER CONTENEDOR*/
+
+/*con este nos aseguramos de que si metemos a futuro otro contenedor arriba, entonces que quede horizontal*/ 
+.cont1{
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px auto;
+    text-shadow: 2px 2px 5px purple;
+}
+
+/*forma del contenedor verde*/
+.cont1 {
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto;
+    width: 450px; /*ancho del div*/
+    height: 150px; /*altura del div*/
+    background-color: #a1d10f; /*color de fondo del div*/
+    text-align: center;  
+    opacity: 0.90;
+    border-radius: 20px; /*curda de las esquinas del div*/
+}
+
+/*ubicación del texto en dentro del contenedor*/
+.context {/*para colocar el texto en el centro del div*/
+    margin: 0; /* Elimina márgenes si es necesario */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px; /*le damos espacio de la parte superior del contenedor al texto*/
+}
+
+/*la forma del boton*/
+.cont2 {
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px auto;
+    width: 150px; /*ancho del div*/
+    height: 40px; /*altura del div*/
+    background-color: #727272; /*color de fondo del div*/
+    text-align: center;  
+    opacity: 0.90;
+    border-radius: 20px; /*curda de las esquinas del div*/
+  }
+
+/*le damos el efecto del boton al pasar el mouse por encima*/
+.cont2:hover {
+    background: #38cd8f;
+}
+
+/*aquí acomodamos el texto dentro del boton*/
+.context1 {/*para colocar el texto en el centro del div*/
+    text-decoration: none; /*le quito esa rayita de link al texto*/
+    margin: 0; /* Elimina márgenes si es necesario */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;    
+}
+
+/*AQUÍ CONFIGURAMOS LOS CONTENEDORES DE ABAJO*/
+
+/*esto es por si se coloca otro div dentro de este div y quede de forma horizontal*/
+.canal1{
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto;
+    text-shadow: 2px 2px 5px purple;
+}
+
+/*esto es para configurar los dos contenedores de abajo en horizontal*/
+.canales{
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto;
+    margin-bottom: 150px;
+    text-shadow: 2px 2px 5px purple;
+}
+
+/*esto es para configurar los dos botones en horizontal*/
+.botones{
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2px auto;
+    text-shadow: 2px 2px 5px purple;
+}
+
+/*aquí configuro el contenedor de los canales whatsapp y facebook*/
+.canal {
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    width: 380px; /*ancho del div*/
+    height: 150px; /*altura del div*/
+    background-color: #a1d10f; /*color de fondo del div*/
+    text-align: center;  
+    opacity: 0.90;
+    border-radius: 20px; /*curda de las esquinas del div*/
+}
+
+.canaltext {/*para colocar el texto en el centro del div*/
+    text-decoration: none; /*le quito esa rayita de link al texto*/
+    margin: 0; /* Elimina márgenes si es necesario */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: auto;    
+}
+
+/*forma del boton de facebook*/
+.canal2 {
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: 15px;/*con esto le doy espacio desde el boton de facebook hacia la derecha haciendo un espacio entre los dos botones*/
+    width: 150px; /*ancho del div*/
+    height: 40px; /*altura del div*/
+    background-color: #727272; /*color de fondo del div*/
+    text-align: center;  
+    opacity: 0.90;
+    border-radius: 20px; /*curda de las esquinas del div*/
+  }
+
+  /*le damos el efecto del boton al pasar el mouse por encima*/
+.canal2:hover {
+    background: #38cd8f;
+}
+
+.canal2text {/*para colocar el texto en el centro del div*/
+    text-decoration: none; /*le quito esa rayita de link al texto*/
+    margin: 0; /* Elimina márgenes si es necesario */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: auto;    
+}
+
+/*forma del boton de whatsapp*/
+.canal3 {
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px; /*ancho del div*/
+    height: 40px; /*altura del div*/
+    background-color: #727272; /*color de fondo del div*/
+    text-align: center;  
+    opacity: 0.90;
+    border-radius: 20px; /*curda de las esquinas del div*/
+  }
+
+/*le damos el efecto del boton al pasar el mouse por encima*/
+.canal3:hover {
+    background: #38cd8f;
+}
+
+.canal3text {/*para colocar el texto en el centro del div*/
+    text-decoration: none; /*le quito esa rayita de link al texto*/
+    margin: 0; /* Elimina márgenes si es necesario */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: auto;    
+}
+
+/*-----------------------------------------------------------*/
+/*aquí configuro el contenedor de mapa*/
+.map {
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    width: 380px; /*ancho del div*/
+    height: 150px; /*altura del div*/
+    background-color: #a1d10f; /*color de fondo del div*/
+    text-align: center;  
+    opacity: 0.90;
+    border-radius: 20px; /*curda de las esquinas del div*/
+}
+
+.maptext {/*para colocar el texto en el centro del div*/
+    text-decoration: none; /*le quito esa rayita de link al texto*/
+    /*margin: 0; /* Elimina márgenes si es necesario */
+    margin-left: 115px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: auto;    
+}
+
+/*forma del boton del mapa*/
+
+/*forma del boton de whatsapp*/
+.map2 {
+    display: flex;/* Activa Flexbox */  
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 116px;
+    margin-bottom: 5px;    
+    margin-right: auto;
+    width: 150px; /*ancho del div*/
+    height: 40px; /*altura del div*/
+    background-color: #727272; /*color de fondo del div*/
+    text-align: center;  
+    opacity: 0.90;
+    border-radius: 20px; /*curda de las esquinas del div*/
+  }
+
+ .botonmaptext {/*para colocar el texto en el centro del div*/
+    text-decoration: none; /*le quito esa rayita de link al texto*/
+    /*margin: 0; /* Elimina márgenes si es necesario */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: auto;    
+}
+
+/*le damos el efecto del boton al pasar el mouse por encima*/
+.map2:hover {
+    background: #38cd8f;
+}

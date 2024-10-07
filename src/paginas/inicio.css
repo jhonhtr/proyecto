@@ -1,0 +1,397 @@
+/*CSS PARA EL MENU DE ENCABEZADO*/
+.menu{
+    list-style: none;    
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 600px;
+    margin: 10px auto; /*este me da espacio de 10px desde la parte superior de la página al cuadro del menú 
+    y auto significa que queda centrado desde la parte izquiera y derecha de la página*/
+    display: flex;    
+    opacity: 0.6;
+    position:sticky; /* Mantiene el menú en la parte superior al hacer scroll */
+    top: 0; /* Fija el menú en la parte superior */
+    border-radius: 20px; /*es el que le da la curva al borde del menú*/
+  }
+
+  .menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .menu li{
+    flex: 1;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a:hover{
+    background: #ef8354;
+    border-radius: 20px;
+  }
+
+
+  /*--------------------------LOGO----------------------*/
+/*
+  titulo.logo{/*para darle efecto al titulo de la iglesia con el logo*/
+/*    color:white;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    text-align: center;
+  }*/
+
+  /*-----------------------transparencia al logo----------------------*/
+
+.titulo img {
+  opacity: 0.90; /* Valor entre 0 (totalmente transparente) y 1 (completamente opaco)*/
+}
+
+  /*--------------------centrar y efecto titulo de información---------------------------*/
+.titulo {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;  
+}
+
+.titulo1 {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top:  10px; /*espacio de la parte superior hasta donde está el div del titulo y la imagen*/
+  margin-right: auto; /*me centra el titulo de generacion de gracia de la parte derecha al centro de la página*/
+}
+
+.img {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px; /*espacio de la parte superior hasta donde está el div del titulo y la imagen*/
+  margin-right: 20px; /*espacio de la parte derecha de la imagen al titulo*/
+  margin-left: auto; /*me centra la imagen del borde de la pantalla al centro de la página*/
+}
+
+h1{/*para darle efecto al titulo de información*/
+  color:white;
+  text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+  text-align: center;
+  margin-left: 5px; /*es para darle espacio entre el logo y el texto*/
+}
+
+/*---------------EFECTOS PARA LA MISION Y VISION------------------------*/
+.mision_vision {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;  
+}
+
+.mision {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+}
+
+h2{/*para darle efecto al titulo de información*/
+  color:white;
+  text-shadow: 1px 2px 2px black, 0 0 25px purple, 0 0 5px purple;
+  text-align: center;
+  margin-left: 50px; /*es para darle espacio entre el logo y el texto*/
+}
+
+mision_vision, h2:hover{/*le aplico a los textos misión y visión efectos*/
+  text-align: center;
+/*border: solid 1px gray;
+  background-color: transparent;*/
+}
+
+/*------------------quienes somos----------------------------------*/
+
+.quienes_somos {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;  
+}
+
+.somos {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+}
+
+
+
+/*----------------------pastores-------------------------------*/
+.pastoress {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;  
+}
+
+.pastoress1 {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+  width: 500px; /*ancho del div*/
+  height: 200px; /*altura del div*/
+  background-color: #a1d10f; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curda de las esquinas del div*/
+}
+
+.pastoress1:hover{
+  background: rgb(112, 130, 231);
+}
+
+.pastoress1, img{
+  padding-left: 5%;
+}
+
+.comite {  
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
+  width: 500px; /*ancho del div*/
+  height: 200px; /*altura del div*/
+  background-color: #a1d10f; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curda de las esquinas del div*/
+}
+
+.comite3{
+  margin-top: 0px auto;
+}
+
+.comite:hover{
+  background: rgb(112, 130, 231);
+}
+
+.comite h4{
+  padding-left: 30%;  
+}
+
+.comite1{
+  list-style: none;
+}
+
+/*configuro el boton del comité*/
+.botoncomite {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px auto;
+  width: 150px; /*ancho del div*/
+  height: 40px; /*altura del div*/
+  background-color: #727272; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curda de las esquinas del div*/
+}
+
+.botoncomite:hover {
+  background: #38cd8f;
+}
+
+.botoncomite1 {/*para colocar el texto en el centro del div*/
+  text-decoration: none; /*le quito esa rayita de link al texto*/
+  margin: 0; /* Elimina márgenes si es necesario */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;    
+}
+
+/*-------------------------------------------------------------*/
+
+h3{/*para darle efecto al lema*/
+  color:white;
+  text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px; /*es para darle espacio entre el logo y el texto*/  
+}
+
+
+
+
+  /*-------------------pie de pagina---------------------------------*/
+  footer{
+    background-color: #222;
+    padding: 2rem;
+    color: #fff        
+  }
+  
+  .pie{
+    float: right;
+  }
+  
+  footer p{
+    margin: 0 auto;
+    height: 30px;    
+  }
+  
+  
+  footer a{
+    transition: color0.3s ease;/*le colocamos resaltado de color mas suave a los links*/
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover{/*resaltar los links de contacto*/
+    color: cornflowerblue;
+  }
+/*------------------------SECCION GALERIA---------------------------*/
+
+section.oracion{
+    display: flex;
+    width: 1000px;
+    height: 430px;
+    border: 100px;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  section.oracion img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: .5s ease;
+  }
+  
+  section.oracion img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+
+  /*_______________SLIDER CARRUSEL______________________*/
+
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+.slider-container{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  /*margin: 10px auto;*/
+  width: 56%; /* Ajusta el ancho según lo que necesites */
+  margin: 50px auto; /* Centra el slider horizontalmente */
+  margin-bottom: 5px;}
+
+.slider{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px auto;
+  margin-bottom: 5px;
+  width: 1000px;
+  height: auto; /*espacio del contenedor del slider a los puntos de apajo llamados dots*/ 
+}
+
+/*  configuración contenedor donación   */
+
+.dona1 {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+  width: 450px; /*ancho del div*/
+  height: 500px; /*altura del div*/
+  background-color: #a1d10f; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curda de las esquinas del div*/
+}
+
+/*ubicación del texto en dentro del contenedor*/
+.donatext {/*para colocar el texto en el centro del div*/
+  margin: 0; /* Elimina márgenes si es necesario */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px; /*le damos espacio de la parte superior del contenedor al texto*/
+}
+
+/*la forma del boton*/
+.dona2 {
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px auto;
+  width: 350px; /*ancho del div*/
+  height: 300px; /*altura del div*/
+  background-color: #727272; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curda de las esquinas del div*/
+}
+
+/*le damos el efecto del boton al pasar el mouse por encima*/
+.dona2:hover {
+  background: #38cd8f;
+}
+
+/*aquí acomodamos el texto dentro del boton*/
+.donatext1 {/*para colocar el texto en el centro del div*/
+  text-decoration: none; /*le quito esa rayita de link al texto*/
+  margin: 0; /* Elimina márgenes si es necesario */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;    
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*configuro para que los div dentro del div encabezado quede horizontal */
+.encabezado{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;  
+}
+
+/*centro el div del titulo dandole espacio izquierdo con respecto al titulo de la iglesia jofra*/
+.titulo{
+  margin-left: 145px;  
+}
+
+/*le doy espacio del borde de la página al texto de jofra*/
+.logo{
+  margin-left: 10px;
+}
+
+/*centro el logo de jofra*/
+.logojofra{
+  margin-left: 60px;
+}
+
