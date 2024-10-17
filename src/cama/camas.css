@@ -241,7 +241,7 @@ footer a:hover{/*resaltar los links de contacto*/
   margin: 10px auto;
   width: 400px; /*ancho del div*/
   height: 250px; /*altura del div*/
-  background-color: white; /*color de fondo del div*/
+  background-color: gray; /*color de fondo del div*/
   text-align: center;  
   opacity: 0.90;
   border-radius: 20px; /*curva de las esquinas del div*/
