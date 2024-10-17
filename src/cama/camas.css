@@ -1,0 +1,317 @@
+/*CSS PARA EL MENU DE ENCABEZADO*/
+.menu{
+    list-style: none;    
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding: 0;
+    background: #092327;
+    width: 100%;
+    max-width: auto;
+    margin: auto auto auto 0px; /*este me da espacio de 0px desde la parte superior de la página al cuadro del menú 
+    y auto significa que queda centrado desde la parte izquiera y derecha de la página*//*aquí lo dejé a la izquierda*/
+    display: flex;
+    opacity: 0.99;
+    position:sticky; /* Mantiene el menú en la parte superior al hacer scroll */
+    top: 0; /* Fija el menú en la parte superior */
+    border-radius: 5px; /*es el que le da la curva al borde del menú*/
+    z-index: 1000; /* Hace que el menú esté por encima de otros elementos */
+  }
+
+  .menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    /*text-align: center; lo inhabilito para configurar todo a vertical*/
+    text-align: left;
+  }
+  
+  .menu li{
+    /*flex: 1;
+    display: inline-block;
+    text-align: center; los inhabilito para configurar todo a vertical*/
+    display: block;
+    text-align: left;
+  }
+  
+  .menu li a:hover{
+    background: #ef8354;
+    border-radius: 5px;
+  }
+
+.titulo1{
+  margin-left: 100px;
+}
+
+h1{/*para darle efecto al titulo de información*/
+  color:orange;
+  text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+  text-align: center;
+  margin-left: 5px; /*es para darle espacio entre el logo y el texto*/
+}
+
+h2{/*para darle efecto al titulo de información*/
+  color:white;
+  text-shadow: 1px 2px 2px black, 0 0 25px purple, 0 0 5px purple;
+  text-align: center;
+  margin-left: 50px; /*es para darle espacio entre el logo y el texto*/
+}
+
+h3{/*para darle efecto al lema*/
+  color:orange;
+  text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px; /*es para darle espacio entre el logo y el texto*/  
+}
+
+/*-------------------pie de pagina---------------------------------*/
+footer{
+  background-color: #222;
+  padding: 2rem;
+  color: #fff        
+}
+
+.pie{
+  float: right;
+}
+
+footer p{
+  margin: 0 auto;
+  height: 30px;    
+}
+
+
+footer a{
+  transition: color0.3s ease;/*le colocamos resaltado de color mas suave a los links*/
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover{/*resaltar los links de contacto*/
+  color: cornflowerblue;
+}
+
+/*PRIMER CONTENEDOR: .contened permite que los div dentro de este div se queden alineados horizontalmente*/
+.contened{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+  margin-bottom: 50px;  
+}
+
+/*contenedor blanco*/
+.contd1 {
+  display: block;/* Activa Flexbox */  
+  flex-direction: column;
+  flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
+  align-items: center;
+  margin: 10px auto;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  width: 350px; /*ancho del div*/
+  height: 350px; /*altura del div*/
+  background-color: white; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curva de las esquinas del div*/
+}
+
+/*efecto del contenedor*/
+.contd1:hover{
+  border: 5px solid orange; /* Cambia el borde a gris al pasar el mouse */
+}
+
+/*contenedor de la imagen*/
+.contd2{/*para colocar el texto en el centro del div*/
+  margin: auto  auto auto auto;
+}
+
+/*forma del boton información aquí*/
+.contd3{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-bottom: 5px;    
+  margin-right: auto;
+  width: 215px; /*ancho del div*/
+  height: 40px; /*altura del div*/
+  background-color: #727272; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curda de las esquinas del div*/  
+}
+
+.contd3:hover {
+  background: orange;
+}
+
+/*contenedor del texto del boton*/
+.contd4{/*para colocar el texto en el centro del div*/
+  text-decoration: none; /*le quito esa rayita de link al texto*/
+  margin: 0; /* Elimina márgenes si es necesario */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: auto;  
+}
+
+/*SEGUNDO CONTENEDOR*/
+
+/*contenedor blanco*/
+.contd5 {
+  display: block;/* Activa Flexbox */  
+  flex-direction: column;
+  flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
+  align-items: center;
+  margin: 10px auto;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  width: 350px; /*ancho del div*/
+  height: 350px; /*altura del div*/
+  background-color: white; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curva de las esquinas del div*/
+}
+
+/*efecto del contenedor*/
+.contd5:hover{
+  border: 5px solid orange; /* Cambia el borde a gris al pasar el mouse */
+}
+
+/*contenedor de la imagen*/
+.contd6{/*para colocar el texto en el centro del div*/
+  margin: auto  auto auto auto;
+}
+
+/*SEGUNDO CONTENEDOR: .contened permite que los div dentro de este div se queden alineados horizontalmente*/
+.contened1{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+  margin-bottom: 50px;  
+}
+
+.contd7 {
+  display: block;/* Activa Flexbox */  
+  flex-direction: column;
+  flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
+  align-items: center;
+  margin: 10px auto;
+  width: 350px; /*ancho del div*/
+  height: 350px; /*altura del div*/
+  background-color: white; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curva de las esquinas del div*/
+}
+
+/*efecto del contenedor*/
+.contd7:hover{
+  border: 5px solid orange; /* Cambia el borde a gris al pasar el mouse */
+}
+
+/*contenedor de la imagen*/
+.contd8{/*para colocar el texto en el centro del div*/
+  margin: auto auto auto auto;
+}
+
+.pago{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.pago1 {
+  display: block;/* Activa Flexbox */  
+  flex-direction: column;
+  flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
+  align-items: center;
+  margin: 10px auto;
+  width: 400px; /*ancho del div*/
+  height: 450px; /*altura del div*/
+  background-color: white; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curva de las esquinas del div*/
+}
+
+/*configuro para que los botones de pago y envío me queden horizontales*/
+.botones{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.botonbancoestado{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-bottom: 5px;    
+  margin-right: auto;
+  width: 160px; /*ancho del div*/
+  height: 40px; /*altura del div*/
+  background-color: #727272; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curda de las esquinas del div*/  
+}
+
+.botonbancoestado:hover {
+  background: orange;
+}
+
+.botonenvio{
+  display: flex;/* Activa Flexbox */  
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-bottom: 5px;    
+  margin-right: auto;
+  width: 160px; /*ancho del div*/
+  height: 40px; /*altura del div*/
+  background-color: #727272; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curda de las esquinas del div*/  
+}
+
+.botonenvio:hover {
+  background: orange;
+}
+
+.textobancoestado{/*para colocar el texto en el centro del div*/
+  text-decoration: none; /*le quito esa rayita de link al texto*/
+  margin: 0; /* Elimina márgenes si es necesario */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: auto;  
+}
+
+.textoenviar{/*para colocar el texto en el centro del div*/
+  text-decoration: none; /*le quito esa rayita de link al texto*/
+  margin: 0; /* Elimina márgenes si es necesario */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: auto;  
+}
