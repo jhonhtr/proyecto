@@ -41,6 +41,7 @@ const Camas = () => {
             <div className='contened'>
                 
                 <div className='contd1'>
+                    <div className="ref-text">ref001</div> {/* Texto en la esquina superior derecha */}
                     <div className='contd2'>
                         <h4>Cama dorado 100% en Madera</h4>
                         <img src={cama1} alt="cama1" width={200} height={210}/>                        
@@ -51,6 +52,7 @@ const Camas = () => {
                 </div>
                 
                 <div className='contd5'>
+                    <div className="ref-text">ref002</div> {/* Texto en la esquina superior derecha */}
                     <div className='contd6'>
                         <h4>Cama dorado 100% en Madera</h4>
                         <img src={cama2} alt="cama2" width={200} height={210}/>
@@ -63,6 +65,7 @@ const Camas = () => {
 
             <div className='contened1'>                
                 <div className='contd7'>
+                    <div className="ref-text">ref003</div> {/* Texto en la esquina superior derecha */}
                     <div className='contd8'>
                         <h4>Cama dorado 100% en Madera</h4>
                         <img src={cama3} alt="cama3" width={200} height={210}/>                        
