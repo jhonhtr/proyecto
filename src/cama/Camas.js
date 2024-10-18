@@ -4,7 +4,6 @@ import fondo from './imagen-inicio/fondo.png';
 import cama1 from './camas/cama1.png';
 import cama2 from './camas/cama2.png';
 import cama3 from './camas/cama3.png';
-import QR from './pago/QR.jpg';
 
 
 const Camas = () => {
