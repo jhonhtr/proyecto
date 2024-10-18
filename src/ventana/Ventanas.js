@@ -73,7 +73,7 @@ const Contactanos = () => {
             <footer>
                 <section className='pie'>
                     <p>Desarrollador: Harris Tierradentro</p>               
-                    <a target="_blank" rel="noopener noreferrer" 
+                    <a className='contacto' target="_blank" rel="noopener noreferrer" 
                     href="https://wa.me/+573205119854">+573205119854</a>
                      / <a target="_blank" rel="noopener noreferrer" 
                      href="mailto:jhonhtr@gmail.com">jhonhtr@gmail.com </a>                    
