@@ -123,7 +123,7 @@ const Comedores = () => {
                 <div className='pago1'>
                     <div className='pago2'>
                         <h4>Para realizar tu pedido <br/><br/>
-                        Contactar al: <a target="_blank" rel="noopener noreferrer" 
+                        Contactar al: <a className='contacto' target="_blank" rel="noopener noreferrer" 
                         href="https://wa.me/+573205119854">+56 949165634</a><br/> <br/><br/>
                         Fabricante: Michael Amín Tierradentro R.<br/></h4>                        
                         <div className='botones'>                            
