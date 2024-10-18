@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './ventanas.css';
 import fondo from './imagen/fondo.png';
-import QR from './pago/QR.jpg';
 import ventana1 from './ventanas/ventana1.png';
 
 
