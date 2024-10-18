@@ -5,7 +5,6 @@
     align-items: center;
     margin: 10px auto;
     margin-bottom: 50px;  
-    grid-template-columns: auto auto auto auto;
   }
 
   .contenedormuebles1{
@@ -77,9 +76,8 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin: 10px auto;
+    margin: 10px auto;          
     margin-bottom: 5px;
-    margin-right: 10px;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
@@ -220,10 +218,8 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin: 10px auto;
-    margin-left: 10px;
+    margin: 10px auto;          
     margin-bottom: 5px;
-    margin-right: auto;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
@@ -332,10 +328,8 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin: 10px auto;
-    margin-left: 10px;
+    margin: 10px auto;          
     margin-bottom: 5px;
-    margin-right: auto;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
@@ -444,10 +438,8 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin: 10px auto;
-    margin-left: 10px;
+    margin: 10px auto;          
     margin-bottom: 5px;
-    margin-right: auto;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
@@ -556,10 +548,8 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin: 10px auto;
-    margin-left: 10px;
+    margin: 10px auto;          
     margin-bottom: 5px;
-    margin-right: auto;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
@@ -668,10 +658,8 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin: 10px auto;
-    margin-left: 10px;
+    margin: 10px auto;          
     margin-bottom: 5px;
-    margin-right: auto;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
@@ -780,10 +768,8 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin: 10px auto;
-    margin-left: 10px;
+    margin: 10px auto;          
     margin-bottom: 5px;
-    margin-right: auto;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
@@ -865,9 +851,9 @@
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
     margin: 10px auto;
-    margin-left: auto;
+    margin-left: 10px;
     margin-bottom: 5px;
-    margin-right: 10px;
+    margin-right: auto;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
@@ -920,10 +906,10 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin: 10px auto;
+    margin-top: 10px;
     margin-left: 10px;
-    margin-bottom: 5px;
     margin-right: auto;
+    margin-bottom: 5px;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
     background-color: white; /*color de fondo del div*/
