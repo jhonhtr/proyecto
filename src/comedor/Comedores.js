@@ -141,15 +141,15 @@ const Comedores = () => {
 
             <footer>
                 <section className='pie'>
-                    <p>Desarrollador: Harris Tierradentro</p>               
-                    <a target="_blank" rel="noopener noreferrer" 
+                    <p>CEO: Michael Amín Tierradentro</p>               
+                    Contacto: <a target="_blank" rel="noopener noreferrer" 
+                    href="https://wa.me/+573205119854">+56949165634</a><br/>                        
+                </section>
+                <p>Desarrollador: Harris Tierradentro<br/>
+                <a target="_blank" rel="noopener noreferrer" 
                     href="https://wa.me/+573205119854">+573205119854</a>
                      / <a target="_blank" rel="noopener noreferrer" 
-                     href="mailto:jhonhtr@gmail.com">jhonhtr@gmail.com </a>                    
-                </section>
-                <p>CEO: Michael Amín Tierradentro<br/>
-                Contacto: <a target="_blank" rel="noopener noreferrer" 
-                    href="https://wa.me/+573205119854">+56949165634</a><br/>
+                     href="mailto:jhonhtr@gmail.com">jhonhtr@gmail.com </a><br/>                
                 Derechos Reservados- Copyright 2024</p>
             </footer>
         </div>
