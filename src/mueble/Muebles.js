@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './muebles.css';
 import fondo from './imagen/fondo.png';
-import QR from './pago/QR.jpg';
 import mue1 from './muebles/mue1.png';
 import mue2 from './muebles/mue2.png';
 import mue3 from './muebles/mue3.png';
