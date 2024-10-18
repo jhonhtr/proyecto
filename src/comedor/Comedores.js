@@ -8,7 +8,6 @@ import come4 from './comedores/come4.png';
 import come5 from './comedores/come5.png';
 import come6 from './comedores/come6.png';
 import come7 from './comedores/come7.png';
-import QR from './pago/QR.jpg';
 
 const Comedores = () => {
     useEffect(() => {
