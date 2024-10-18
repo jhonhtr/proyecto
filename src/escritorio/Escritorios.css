@@ -54,7 +54,7 @@
     margin-right: auto;
     width: 215px; /*ancho del div*/
     height: 40px; /*altura del div*/
-    background-color: #727272; /*color de fondo del div*/
+    background-color: greenyellow; /*color de fondo del div*/
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curda de las esquinas del div*/  
