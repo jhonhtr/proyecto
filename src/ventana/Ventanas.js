@@ -5,7 +5,7 @@ import QR from './pago/QR.jpg';
 import ventana1 from './ventanas/ventana1.png';
 
 
-const Contactanos = () => {
+const Ventanas = () => {
     useEffect(() => {
         document.body.style.backgroundImage = `url(${fondo})`; // Usa la variable renombrada        
         document.body.style.backgroundSize = "cover";
@@ -87,4 +87,4 @@ const Contactanos = () => {
     );
 };
 
-export default Contactanos;
+export default Ventanas;
