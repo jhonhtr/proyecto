@@ -68,7 +68,7 @@ const Muebles = () => {
                 
                 <div className='contmue1'>
                     <div className='contmue2'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue1} alt="mue1" width={200} height={210}/>                        
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -78,7 +78,7 @@ const Muebles = () => {
                 
                 <div className='contmue5'>
                     <div className='contmue6'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue2} alt="mue2" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -88,7 +88,7 @@ const Muebles = () => {
 
                 <div className='contmue7'>
                     <div className='contmue8'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue3} alt="mue3" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -98,7 +98,7 @@ const Muebles = () => {
 
                 <div className='contmue9'>
                     <div className='contmue10'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue4} alt="mue4" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -112,7 +112,7 @@ const Muebles = () => {
                 
                 <div className='contmue11'>
                     <div className='contmue12'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue5} alt="mue5" width={200} height={210}/>                        
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -122,7 +122,7 @@ const Muebles = () => {
                 
                 <div className='contmue13'>
                     <div className='contmue14'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue6} alt="mue6" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -132,7 +132,7 @@ const Muebles = () => {
 
                 <div className='contmue15'>
                     <div className='contmue16'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue7} alt="mue7" width={200} height={210}/>
                         <div className='contescri3'>
                             <a className='contescri4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -142,7 +142,7 @@ const Muebles = () => {
 
                 <div className='contmue17'>
                     <div className='contmue18'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue8} alt="mue8" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -156,7 +156,7 @@ const Muebles = () => {
                 
                 <div className='contmue19'>
                     <div className='contmue20'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue9} alt="mue9" width={200} height={210}/>                        
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -166,7 +166,7 @@ const Muebles = () => {
                 
                 <div className='contmue21'>
                     <div className='contmue22'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue10} alt="mue10" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -176,7 +176,7 @@ const Muebles = () => {
 
                 <div className='contmue23'>
                     <div className='contmue24'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue11} alt="mue11" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -186,7 +186,7 @@ const Muebles = () => {
 
                 <div className='contmue25'>
                     <div className='contmue26'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue12} alt="mue12" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -200,7 +200,7 @@ const Muebles = () => {
                 
                 <div className='contmue27'>
                     <div className='contmue28'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue13} alt="mue13" width={200} height={210}/>                        
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -210,7 +210,7 @@ const Muebles = () => {
                 
                 <div className='contmue29'>
                     <div className='contmue30'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue14} alt="mue14" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -220,7 +220,7 @@ const Muebles = () => {
 
                 <div className='contmue31'>
                     <div className='contmue32'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue15} alt="mue15" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -230,7 +230,7 @@ const Muebles = () => {
 
                 <div className='contmue33'>
                     <div className='contmue34'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue16} alt="mue16" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -244,7 +244,7 @@ const Muebles = () => {
                 
                 <div className='contmue35'>
                     <div className='contmue36'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue17} alt="mue17" width={200} height={210}/>                        
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -254,7 +254,7 @@ const Muebles = () => {
                 
                 <div className='contmue37'>
                     <div className='contmue38'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue18} alt="mue18" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -264,7 +264,7 @@ const Muebles = () => {
 
                 <div className='contmue39'>
                     <div className='contmue40'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue19} alt="mue19" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -274,7 +274,7 @@ const Muebles = () => {
 
                 <div className='contmue41'>
                     <div className='contmue42'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue20} alt="mue20" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -288,7 +288,7 @@ const Muebles = () => {
                 
                 <div className='contmue43'>
                     <div className='contmue44'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue21} alt="mue21" width={200} height={210}/>                        
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -298,7 +298,7 @@ const Muebles = () => {
                 
                 <div className='contmue45'>
                     <div className='contmue46'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue22} alt="mue22" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -308,7 +308,7 @@ const Muebles = () => {
 
                 <div className='contmue47'>
                     <div className='contmue48'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue23} alt="mue23" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -318,7 +318,7 @@ const Muebles = () => {
 
                 <div className='contmue49'>
                     <div className='contmue50'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue24} alt="mue24" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -332,7 +332,7 @@ const Muebles = () => {
                 
                 <div className='contmue51'>
                     <div className='contmue52'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue25} alt="mue25" width={200} height={210}/>                        
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -342,7 +342,7 @@ const Muebles = () => {
                 
                 <div className='contmue53'>
                     <div className='contmue54'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue26} alt="mue26" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -352,7 +352,7 @@ const Muebles = () => {
 
                 <div className='contmue55'>
                     <div className='contmue56'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue27} alt="mue27" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -362,7 +362,7 @@ const Muebles = () => {
 
                 <div className='contmue57'>
                     <div className='contmue58'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue28} alt="mue28" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -376,7 +376,7 @@ const Muebles = () => {
                 
                 <div className='contmue59'>
                     <div className='contmue60'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue29} alt="mue29" width={200} height={210}/>                        
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -386,7 +386,7 @@ const Muebles = () => {
                 
                 <div className='contmue60'>
                     <div className='contmue61'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue30} alt="mue30" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
@@ -396,7 +396,7 @@ const Muebles = () => {
 
                 <div className='contmue61'>
                     <div className='contmue62'>
-                        <h4>Escritorio 100% en Madera</h4>
+                        <h4>Mueble 100% en Madera</h4>
                         <img src={mue31} alt="mue31" width={200} height={210}/>
                         <div className='contmue3'>
                             <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
