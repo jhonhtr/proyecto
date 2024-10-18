@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './Escritorios.css';
 import fondo from './imagen/fondo.png';
-import QR from './pago/QR.jpg';
 import esc1 from './escritorios/esc1.png';
 import esc2 from './escritorios/esc2.png';
 import esc3 from './escritorios/esc3.png';
