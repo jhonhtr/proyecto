@@ -180,6 +180,10 @@ footer a{
   text-align: center;  
   opacity: 0.90;
   border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+  border: 1px solid black;  
+  padding: 10px;
+  position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
 }
 
 /*efecto de los contenedores*/
@@ -207,7 +211,7 @@ footer a{
   background-color: greenyellow; /*color de fondo del div*/
   text-align: center;  
   opacity: 0.90;
-  border-radius: 20px; /*curda de las esquinas del div*/  
+  border-radius: 20px; /*curda de las esquinas del div*/
 }
 
 .contd3:hover {
@@ -242,6 +246,10 @@ footer a{
   text-align: center;  
   opacity: 0.90;
   border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+  border: 1px solid black;  
+  padding: 10px;
+  position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
 }
 
 /*contenedor de la imagen*/
@@ -271,6 +279,10 @@ footer a{
   text-align: center;  
   opacity: 0.90;
   border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+  border: 1px solid black;  
+  padding: 10px;
+  position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
 }
 
 /*contenedor de la imagen*/
