@@ -39,7 +39,7 @@ const Ventanas = () => {
                 
                 <div className='contventana1'>
                     <div className='contventana2'>
-                        <h4>Ventanas 100% en Madera</h4>
+                        <h4>Ventana 100% en Madera</h4>
                         <img src={ventana1} alt="ventana1" width={200} height={210}/>                        
                         <div className='contventana3'>
                             <a className='contventana4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
