@@ -130,20 +130,16 @@ const Escritorios = () => {
 
             </div>
 
-            <div className='pago'>                
+                        <div className='pago'>                
                 <div className='pago1'>
                     <div className='pago2'>
-                        <h4>Realiza tu pago a través de Banco Estado <br/>
-                        Al número de cuenta: 28116469-4 <br/><br/>
-                        A nombre de: Michael Amín Tierradentro R.<br/>
-                        Pago QR Banco Estado</h4>
-                        <img src={QR} alt="QR" width={200} height={210}/>
-                        <div className='botones'>
-                            <div className='botonbancoestado'>
-                                <a className='textobancoestado' target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=net.veritran.becl.prod">Banco Estado</a>
-                            </div>
+                        <h4>Para realizar tu pedido <br/><br/>
+                        Contactar al: <a target="_blank" rel="noopener noreferrer" 
+                        href="https://wa.me/+573205119854">+56 949165634</a><br/> <br/><br/>
+                        Fabricante: Michael Amín Tierradentro R.<br/></h4>                        
+                        <div className='botones'>                            
                             <div className='botonenvio'>
-                                <a className='textoenviar' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Enviar Comprobante</a>
+                                <a className='textoenviar' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Whatsapp</a>
                             </div>
                         </div> 
                     </div>                                       
