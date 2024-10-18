@@ -92,6 +92,10 @@ footer a:hover{/*resaltar los links de contacto*/
   color: cornflowerblue;
 }
 
+.contacto{
+  text-decoration: none;
+}
+
 /*PRIMER CONTENEDOR: .contened permite que los div dentro de este div se queden alineados horizontalmente*/
 .contened{
   display: flex;/* Activa Flexbox */  
