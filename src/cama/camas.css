@@ -10,6 +10,7 @@
     margin: auto auto auto 0px; /*este me da espacio de 0px desde la parte superior de la página al cuadro del menú 
     y auto significa que queda centrado desde la parte izquiera y derecha de la página*//*aquí lo dejé a la izquierda*/
     display: flex;
+    justify-content: space-around; /* Espacio uniforme entre elementos del menú */
     opacity: 0.99;
     position:sticky; /* Mantiene el menú en la parte superior al hacer scroll */
     top: 0; /* Fija el menú en la parte superior */
@@ -40,7 +41,7 @@
   }
 
 .titulo1{
-  margin-left: 100px;
+  margin-left: 1px;
 }
 
 h1{/*para darle efecto al titulo de información*/
@@ -64,8 +65,65 @@ h3{/*para darle efecto al lema*/
   margin-top: 20px;
   margin-bottom: 10px; /*es para darle espacio entre el logo y el texto*/  
 }
+/*------------------------AJUSTES PARA PANTALLAS CELULARES------------------*/
+/* Primer contenedor: ajuste responsivo */
+.contened, .contened1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrar los elementos en pantallas grandes */
+  margin: 10px auto;
+}
+
+/* Estilos para los contenedores de las camas */
+.contd1, .contd5, .contd7 {
+  display: block;
+  width: 100%;
+  max-width: 350px; /* Mantener un ancho máximo */
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  opacity: 0.90;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .contened, .contened1 {
+    flex-direction: column; /* Cambiar a una sola columna en pantallas pequeñas */
+    align-items: center;
+  }
+
+  .menu {
+    flex-direction: column; /* Hacer el menú vertical en pantallas pequeñas */
+  }
+
+  .menu li a {
+    padding: 15px;
+  }
+
+  .contd1, .contd5, .contd7 {
+    width: 90%; /* Reducir el tamaño del contenedor en pantallas pequeñas */
+  }
+
+  .pago1 {
+    width: 90%;
+  }
+}
 
 /*-------------------pie de pagina---------------------------------*/
+footer {
+  background-color: #222;
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/*
 footer{
   background-color: #222;
   padding: 2rem;
@@ -84,13 +142,14 @@ footer p{
 
 footer a{
   transition: color0.3s ease;/*le colocamos resaltado de color mas suave a los links*/
-  color: #fff;
-  text-decoration: none;
-}
+/*  color: #fff;
+/*  text-decoration: none;
+/*}
 
-footer a:hover{/*resaltar los links de contacto*/
-  color: cornflowerblue;
-}
+/*footer a:hover{/*resaltar los links de contacto*/
+/*  color: cornflowerblue;
+/*}
+*/
 
 .contacto{
   text-decoration: none;
@@ -123,9 +182,9 @@ footer a:hover{/*resaltar los links de contacto*/
   border-radius: 20px; /*curva de las esquinas del div*/
 }
 
-/*efecto del contenedor*/
-.contd1:hover{
-  border: 5px solid orange; /* Cambia el borde a gris al pasar el mouse */
+/*efecto de los contenedores*/
+.contd1:hover, .contd5:hover, .contd7:hover {
+  border: 5px solid orange;
 }
 
 /*contenedor de la imagen*/
@@ -185,11 +244,6 @@ footer a:hover{/*resaltar los links de contacto*/
   border-radius: 20px; /*curva de las esquinas del div*/
 }
 
-/*efecto del contenedor*/
-.contd5:hover{
-  border: 5px solid orange; /* Cambia el borde a gris al pasar el mouse */
-}
-
 /*contenedor de la imagen*/
 .contd6{/*para colocar el texto en el centro del div*/
   margin: auto  auto auto auto;
@@ -217,11 +271,6 @@ footer a:hover{/*resaltar los links de contacto*/
   text-align: center;  
   opacity: 0.90;
   border-radius: 20px; /*curva de las esquinas del div*/
-}
-
-/*efecto del contenedor*/
-.contd7:hover{
-  border: 5px solid orange; /* Cambia el borde a gris al pasar el mouse */
 }
 
 /*contenedor de la imagen*/
