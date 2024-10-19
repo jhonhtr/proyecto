@@ -1,3 +1,14 @@
+.ref-text {
+  position: absolute;
+  top: 10px;  /* Ajusta la distancia desde el borde superior */
+  right: 10px; /* Ajusta la distancia desde el borde derecho */
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente opcional para resaltar el texto */
+  color: white; /* Color del texto */
+  padding: 5px; /* Espacio alrededor del texto */
+  border-radius: 5px; /* Bordes redondeados del fondo */
+  font-size: 12px; /* Tamaño de la fuente */
+}
+
 .contenedcomedor{
     display: flex;/* Activa Flexbox */  
     flex-direction: row;
@@ -21,6 +32,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
   }
   
   /*efecto del contenedor*/
@@ -81,6 +96,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
   }
   
   /*efecto del contenedor*/
@@ -109,6 +128,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
   }
   
   /*efecto del contenedor*/
@@ -137,6 +160,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
   }
   
   /*efecto del contenedor*/
@@ -171,6 +198,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
   }
   
   /*efecto del contenedor*/
@@ -199,6 +230,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
   }
   
   /*efecto del contenedor*/
@@ -227,6 +262,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
   }
   
   /*efecto del contenedor*/
@@ -238,3 +277,36 @@
   .contcom16{/*para colocar el texto en el centro del div*/
     margin: auto  auto auto auto;
   }
+
+/*------------------------AJUSTES PARA PANTALLAS CELULARES------------------*/
+/* Primer contenedor: ajuste responsivo */
+.contenedcomedor, .contenedcomedor1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrar los elementos en pantallas grandes */
+  margin: 10px auto;
+}
+
+/* Estilos para los contenedores de los escritorios */
+.contcom1, .contcom5, .contcom7, .contcom9, .contcom11, .contcom13, .contcom15 {
+  display: block;
+  width: 100%;
+  max-width: 350px; /* Mantener un ancho máximo */
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  opacity: 0.90;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .contenedcomedor, .contenedcomedor1 {
+    flex-direction: column; /* Cambiar a una sola columna en pantallas pequeñas */
+    align-items: center;
+  }  
+
+  .contcom1, .contcom5, .contcom7, .contcom9, .contcom11, .contcom13, .contcom15 {
+    width: 90%; /* Reducir el tamaño del contenedor en pantallas pequeñas */
+  }  
+}
