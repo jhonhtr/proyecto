@@ -44,41 +44,45 @@ const Escritorios = () => {
             <div className='contenedorescritorio'>
                 
                 <div className='contescri1'>
+                    <div className="ref-text">ref011</div>
                     <div className='contescri2'>
                         <h4>Escritorio 100% en Madera</h4>
                         <img src={esc1} alt="esc1" width={200} height={210}/>                        
                         <div className='contescri3'>
-                            <a className='contescri4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Escritorio%20100%25%20en%20Madera.%20con%20ref011`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contescri5'>
+                    <div className="ref-text">ref012</div>
                     <div className='contescri6'>
                         <h4>Escritorio 100% en Madera</h4>
                         <img src={esc2} alt="esc2" width={200} height={210}/>
                         <div className='contcom3'>
-                            <a className='contcom4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Escritorio%20100%25%20en%20Madera.%20con%20ref012`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contescri7'>
+                    <div className="ref-text">ref013</div>
                     <div className='contescri8'>
                         <h4>Escritorio 100% en Madera</h4>
                         <img src={esc3} alt="esc3" width={200} height={210}/>
                         <div className='contescri3'>
-                            <a className='contescri4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Escritorio%20100%25%20en%20Madera.%20con%20ref013`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contescri9'>
+                    <div className="ref-text">ref014</div>
                     <div className='contescri10'>
                         <h4>Escritorio 100% en Madera</h4>
                         <img src={esc4} alt="esc4" width={200} height={210}/>
                         <div className='contcom3'>
-                            <a className='contcom4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Escritorio%20100%25%20en%20Madera.%20con%20ref014`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
@@ -88,41 +92,45 @@ const Escritorios = () => {
             <div className='contenedorescritorio1'>
                 
                 <div className='contescri11'>
+                    <div className="ref-text">ref015</div>
                     <div className='contescri12'>
                         <h4>Escritorio 100% en Madera</h4>
                         <img src={esc5} alt="esc5" width={200} height={210}/>                        
                         <div className='contcom3'>
-                            <a className='contcom4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Escritorio%20100%25%20en%20Madera.%20con%20ref015`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contescri13'>
+                    <div className="ref-text">ref016</div>
                     <div className='contescri14'>
                         <h4>Escritorio 100% en Madera</h4>
                         <img src={esc6} alt="esc6" width={200} height={210}/>
                         <div className='contcom3'>
-                            <a className='contcom4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Escritorio%20100%25%20en%20Madera.%20con%20ref016`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contescri15'>
+                    <div className="ref-text">ref017</div>
                     <div className='contescri16'>
                         <h4>Escritorio 100% en Madera</h4>
                         <img src={esc7} alt="esc7" width={200} height={210}/>
                         <div className='contcom3'>
-                            <a className='contcom4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Escritorio%20100%25%20en%20Madera.%20con%20ref017`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contescri17'>
+                    <div className="ref-text">ref018</div>
                     <div className='contescri18'>
                         <h4>Escritorio 100% en Madera</h4>
                         <img src={esc8} alt="esc8" width={200} height={210}/>
                         <div className='contcom3'>
-                            <a className='contcom4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Escritorio%20100%25%20en%20Madera.%20con%20ref018`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
