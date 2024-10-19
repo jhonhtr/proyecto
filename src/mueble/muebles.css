@@ -1,3 +1,14 @@
+.ref-text {
+  position: absolute;
+  top: 10px;  /* Ajusta la distancia desde el borde superior */
+  right: 10px; /* Ajusta la distancia desde el borde derecho */
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente opcional para resaltar el texto */
+  color: white; /* Color del texto */
+  padding: 5px; /* Espacio alrededor del texto */
+  border-radius: 5px; /* Bordes redondeados del fondo */
+  font-size: 12px; /* Tamaño de la fuente */
+}
+
 .contenedormuebles{
     display: flex;/* Activa Flexbox */  
     flex-direction: row;
@@ -84,7 +95,11 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
-}
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
+  }
   
   /*efecto del contenedor*/
 .contmue1:hover{
@@ -144,6 +159,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -172,7 +191,11 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
-}
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
+  }
   
   /*efecto del contenedor*/
 .contmue7:hover{
@@ -200,6 +223,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -226,7 +253,11 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
-}
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
+  }
   
   /*efecto del contenedor*/
 .contmue11:hover{
@@ -254,6 +285,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -282,6 +317,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -310,6 +349,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -336,6 +379,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -364,6 +411,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -392,6 +443,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -420,6 +475,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -446,6 +505,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -474,6 +537,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -502,6 +569,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -530,6 +601,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -556,6 +631,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -584,6 +663,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -612,6 +695,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -640,6 +727,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -666,6 +757,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -694,6 +789,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -722,6 +821,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -750,6 +853,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -776,6 +883,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -804,6 +915,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -832,6 +947,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -860,6 +979,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -874,20 +997,22 @@
 
 /*contenedor blanco*/
 .contmue59 {
-    display: block;/* Activa Flexbox */  
-    flex-direction: column;
-    flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
-    align-items: center;
-    margin: 10px auto;
-    margin-left: auto;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    width: 350px; /*ancho del div*/
-    height: 350px; /*altura del div*/
-    background-color: white; /*color de fondo del div*/
-    text-align: center;  
-    opacity: 0.90;
-    border-radius: 20px; /*curva de las esquinas del div*/
+  display: block;/* Activa Flexbox */  
+  flex-direction: column;
+  flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
+  align-items: center;
+  margin: 10px auto;          
+  margin-bottom: 5px;
+  width: 350px; /*ancho del div*/
+  height: 350px; /*altura del div*/
+  background-color: white; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curva de las esquinas del div*/
+  /*bode del div*/
+  border: 1px solid black;  
+  padding: 10px;
+  position: relative;
 }
   
   /*efecto del contenedor*/
@@ -906,9 +1031,8 @@
     flex-direction: column;
     flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
     align-items: center;
-    margin-top: 10px;
+    margin: 10px auto;
     margin-left: 10px;
-    margin-right: auto;
     margin-bottom: 5px;
     width: 350px; /*ancho del div*/
     height: 350px; /*altura del div*/
@@ -916,6 +1040,10 @@
     text-align: center;  
     opacity: 0.90;
     border-radius: 20px; /*curva de las esquinas del div*/
+    /*bode del div*/
+    border: 1px solid black;  
+    padding: 10px;
+    position: relative;
 }
   
   /*efecto del contenedor*/
@@ -926,4 +1054,69 @@
   /*contenedor de la imagen*/
 .cont62{/*para colocar el texto en el centro del div*/
     margin: auto  auto auto auto;
+}
+
+/*contenedor blanco*/
+.contmue63 {
+  display: block;/* Activa Flexbox */  
+  flex-direction: column;
+  flex-wrap: wrap; /*si los elementos no caben en un contenedor, los adicionales se mantendran en fila*/
+  align-items: center;
+  margin: 10px auto;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  width: 350px; /*ancho del div*/
+  height: 350px; /*altura del div*/
+  background-color: white; /*color de fondo del div*/
+  text-align: center;  
+  opacity: 0.90;
+  border-radius: 20px; /*curva de las esquinas del div*/
+  /*bode del div*/
+  border: 1px solid black;  
+  padding: 10px;
+  position: relative;
+}
+
+/*efecto del contenedor*/
+.contmue63:hover{
+  border: 5px solid orange; /* Cambia el borde a gris al pasar el mouse */
+}
+
+/*contenedor de la imagen*/
+.cont64{/*para colocar el texto en el centro del div*/
+  margin: auto  auto auto auto;
+}
+
+/*------------------------AJUSTES PARA PANTALLAS CELULARES------------------*/
+/* Primer contenedor: ajuste responsivo */
+.contenedormuebles, .contenedormuebles1, .contenedormuebles2, .contenedormuebles3, .contenedormuebles4, .contenedormuebles5, .contenedormuebles6, .contenedormuebles7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrar los elementos en pantallas grandes */
+  margin: 10px auto;
+}
+
+/* Estilos para los contenedores de los escritorios */
+.contmue1, .contmue5, .contmue7, .contmue9, .contmue11, .contmue13, .contmue15, .contmue17, .contmue19, .contmue21, .contmue23, .contmue25, .contmue27, .contmue29, .contmue31, .contmue33, .contmue35, .contmue37, .contmue39, .contmue41, .contmue43, .contmue45, .contmue47, .contmue49, .contmue51, .contmue53, .contmue55, .contmue57, .contmue59, .contmue61 {
+  display: block;
+  width: 100%;
+  max-width: 350px; /* Mantener un ancho máximo */
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+  opacity: 0.90;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .contenedormuebles, .contenedormuebles1, .contenedormuebles2, .contenedormuebles3, .contenedormuebles4, .contenedormuebles5, .contenedormuebles6, .contenedormuebles7 {
+    flex-direction: column; /* Cambiar a una sola columna en pantallas pequeñas */
+    align-items: center;
+  }  
+
+  .contmue1, .contmue5, .contmue7, .contmue9, .contmue11, .contmue13, .contmue15, .contmue17, .contmue19, .contmue21, .contmue23, .contmue25, .contmue27, .contmue29, .contmue31, .contmue33, .contmue35, .contmue37, .contmue39, .contmue41, .contmue43, .contmue45, .contmue47, .contmue49, .contmue51, .contmue53, .contmue55, .contmue57, .contmue59, .contmue61 {
+    width: 90%; /* Reducir el tamaño del contenedor en pantallas pequeñas */
+  }  
 }
