@@ -180,12 +180,12 @@ footer a{
   text-align: center;  
   opacity: 0.90;
   border-radius: 20px; /*curva de las esquinas del div*/
-    /*bode del div*/
+  /*bode del div*/
   border: 1px solid black;  
   padding: 10px;
   position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
 }
-/*referencia*/
+
 .ref-text {
   position: absolute;
   top: 10px;  /* Ajusta la distancia desde el borde superior */
@@ -222,7 +222,7 @@ footer a{
   background-color: greenyellow; /*color de fondo del div*/
   text-align: center;  
   opacity: 0.90;
-  border-radius: 20px; /*curda de las esquinas del div*/
+  border-radius: 20px; /*curda de las esquinas del div*/  
 }
 
 .contd3:hover {
@@ -257,10 +257,10 @@ footer a{
   text-align: center;  
   opacity: 0.90;
   border-radius: 20px; /*curva de las esquinas del div*/
-    /*bode del div*/
+  /*bode del div*/
   border: 1px solid black;  
   padding: 10px;
-  position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
+  position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */  
 }
 
 /*contenedor de la imagen*/
@@ -290,7 +290,7 @@ footer a{
   text-align: center;  
   opacity: 0.90;
   border-radius: 20px; /*curva de las esquinas del div*/
-    /*bode del div*/
+  /*bode del div*/
   border: 1px solid black;  
   padding: 10px;
   position: relative; /* Necesario para posicionar elementos hijos de forma absoluta */
@@ -320,7 +320,7 @@ footer a{
   background-color: white; /*color de fondo del div*/
   text-align: center;  
   opacity: 0.90;
-  border-radius: 20px; /*curva de las esquinas del div*/
+  border-radius: 20px; /*curva de las esquinas del div*/  
 }
 
 /*configuro para que los botones de pago y envío me queden horizontales*/
