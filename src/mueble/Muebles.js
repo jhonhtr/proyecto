@@ -67,41 +67,45 @@ const Muebles = () => {
             <div className='contenedormuebles'>
                 
                 <div className='contmue1'>
+                    <div className="ref-text">ref019</div>
                     <div className='contmue2'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue1} alt="mue1" width={200} height={210}/>                        
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref019`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contmue5'>
+                    <div className="ref-text">ref020</div>
                     <div className='contmue6'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue2} alt="mue2" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref020`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue7'>
+                    <div className="ref-text">ref021</div>
                     <div className='contmue8'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue3} alt="mue3" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref021`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue9'>
+                    <div className="ref-text">ref022</div>
                     <div className='contmue10'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue4} alt="mue4" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref022`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
@@ -111,41 +115,45 @@ const Muebles = () => {
             <div className='contenedormuebles1'>
                 
                 <div className='contmue11'>
+                    <div className="ref-text">ref023</div>
                     <div className='contmue12'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue5} alt="mue5" width={200} height={210}/>                        
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref023`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contmue13'>
+                    <div className="ref-text">ref024</div>
                     <div className='contmue14'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue6} alt="mue6" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref024`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue15'>
+                    <div className="ref-text">ref025</div>
                     <div className='contmue16'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue7} alt="mue7" width={200} height={210}/>
                         <div className='contescri3'>
-                            <a className='contescri4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref025`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue17'>
+                    <div className="ref-text">ref026</div>
                     <div className='contmue18'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue8} alt="mue8" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref026`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
@@ -155,41 +163,45 @@ const Muebles = () => {
             <div className='contenedormuebles2'>
                 
                 <div className='contmue19'>
+                    <div className="ref-text">ref027</div>
                     <div className='contmue20'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue9} alt="mue9" width={200} height={210}/>                        
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref027`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contmue21'>
+                    <div className="ref-text">ref028</div>
                     <div className='contmue22'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue10} alt="mue10" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref028`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue23'>
+                    <div className="ref-text">ref029</div>
                     <div className='contmue24'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue11} alt="mue11" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref029`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue25'>
+                    <div className="ref-text">ref030</div>
                     <div className='contmue26'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue12} alt="mue12" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref030`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
@@ -199,41 +211,45 @@ const Muebles = () => {
             <div className='contenedormuebles3'>
                 
                 <div className='contmue27'>
+                    <div className="ref-text">ref031</div>
                     <div className='contmue28'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue13} alt="mue13" width={200} height={210}/>                        
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref031`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contmue29'>
+                    <div className="ref-text">ref032</div>
                     <div className='contmue30'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue14} alt="mue14" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref032`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue31'>
+                    <div className="ref-text">ref033</div>
                     <div className='contmue32'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue15} alt="mue15" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref033`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue33'>
+                    <div className="ref-text">ref034</div>
                     <div className='contmue34'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue16} alt="mue16" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref034`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
@@ -243,41 +259,45 @@ const Muebles = () => {
             <div className='contenedormuebles4'>
                 
                 <div className='contmue35'>
+                    <div className="ref-text">ref035</div>
                     <div className='contmue36'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue17} alt="mue17" width={200} height={210}/>                        
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref035`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contmue37'>
+                    <div className="ref-text">ref036</div>
                     <div className='contmue38'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue18} alt="mue18" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref036`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue39'>
+                    <div className="ref-text">ref037</div>
                     <div className='contmue40'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue19} alt="mue19" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref037`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue41'>
+                    <div className="ref-text">ref038</div>
                     <div className='contmue42'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue20} alt="mue20" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref038`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
@@ -287,41 +307,45 @@ const Muebles = () => {
             <div className='contenedormuebles5'>
                 
                 <div className='contmue43'>
+                    <div className="ref-text">ref039</div>
                     <div className='contmue44'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue21} alt="mue21" width={200} height={210}/>                        
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref039`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contmue45'>
+                    <div className="ref-text">ref040</div>
                     <div className='contmue46'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue22} alt="mue22" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref040`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue47'>
+                    <div className="ref-text">ref041</div>
                     <div className='contmue48'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue23} alt="mue23" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref041`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue49'>
+                    <div className="ref-text">ref042</div>
                     <div className='contmue50'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue24} alt="mue24" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref042`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
@@ -331,41 +355,45 @@ const Muebles = () => {
             <div className='contenedormuebles6'>
                 
                 <div className='contmue51'>
+                    <div className="ref-text">ref043</div>
                     <div className='contmue52'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue25} alt="mue25" width={200} height={210}/>                        
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref043`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
                 <div className='contmue53'>
+                    <div className="ref-text">ref044</div>
                     <div className='contmue54'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue26} alt="mue26" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref044`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue55'>
+                    <div className="ref-text">ref045</div>
                     <div className='contmue56'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue27} alt="mue27" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref045`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
 
                 <div className='contmue57'>
+                    <div className="ref-text">ref046</div>
                     <div className='contmue58'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue28} alt="mue28" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref046`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
@@ -375,31 +403,34 @@ const Muebles = () => {
             <div className='contenedormuebles7'>
                 
                 <div className='contmue59'>
+                    <div className="ref-text">ref047</div>
                     <div className='contmue60'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue29} alt="mue29" width={200} height={210}/>                        
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref047`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
                 
-                <div className='contmue60'>
-                    <div className='contmue61'>
+                <div className='contmue61'>
+                    <div className="ref-text">ref048</div>
+                    <div className='contmue62'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue30} alt="mue30" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref048`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div> 
 
-                <div className='contmue61'>
-                    <div className='contmue62'>
+                <div className='contmue63'>
+                    <div className="ref-text">ref049</div>
+                    <div className='contmue64'>
                         <h4>Mueble 100% en Madera</h4>
                         <img src={mue31} alt="mue31" width={200} height={210}/>
                         <div className='contmue3'>
-                            <a className='contmue4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Mueble%20100%25%20en%20Madera.%20con%20ref049`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>               
