@@ -40,13 +40,13 @@ const Camas = () => {
 
             <div className='contened'>
                 
-                <div className='contd1'>
-                    <div className="ref-text">ref001</div> {/* Texto en la esquina superior derecha */}
+                <div className='contd1'> 
+                    <div className="ref-text">ref001</div> {/* Texto en la esquina superior derecha */}                   
                     <div className='contd2'>
                         <h4>Cama dorado 100% en Madera</h4>
                         <img src={cama1} alt="cama1" width={200} height={210}/>                        
                         <div className='contd3'>
-                            <a className='contd4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                            <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Cama%20dorado%20100%25%20en%20Madera.%20con%20ref001`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
@@ -57,20 +57,21 @@ const Camas = () => {
                         <h4>Cama dorado 100% en Madera</h4>
                         <img src={cama2} alt="cama2" width={200} height={210}/>
                         <div className='contd3'>
-                            <a className='contd4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                        <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Cama%20dorado%20100%25%20en%20Madera.%20con%20ref002`}>Solicitar información aquí</a>
                         </div>
                     </div>                    
                 </div>
+    
             </div>
 
             <div className='contened1'>                
                 <div className='contd7'>
-                    <div className="ref-text">ref003</div> {/* Texto en la esquina superior derecha */}
+                <div className="ref-text">ref003</div> {/* Texto en la esquina superior derecha */}
                     <div className='contd8'>
                         <h4>Cama dorado 100% en Madera</h4>
                         <img src={cama3} alt="cama3" width={200} height={210}/>                        
                         <div className='contd3'>
-                            <a className='contd4' target="_blank" rel="noopener noreferrer" href="https://wa.me/+56949165634">Solicitar información aquí</a>
+                        <a className='contd4' target="_blank" rel="noopener noreferrer" href={`https://wa.me/56949165634?text=Solicito%20información%20sobre%20el%20producto:%20Cama%20dorado%20100%25%20en%20Madera.%20con%20ref003`}>Solicitar información aquí</a>
                         </div> 
                     </div>                                       
                 </div>
